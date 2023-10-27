@@ -9,7 +9,7 @@ const msg='Please fill in the fields.'
  const a= await page.locator("//button[text()='Submit']").click()
 
 await page.locator("//input[@id='name']").fill("Meghana")
-await page.locator("//input[@id='inputEmail4']").fill("meghanakatragadda99@gmail.com")
+await page.locator("//input[@id='inputEmail4']").fill("meghanak9948@gmail.com")
 await page.locator("//input[@id='inputPassword4']").fill("Meghana@1234")
 
 await page.locator("//input[@id='company']").fill("ABC")
