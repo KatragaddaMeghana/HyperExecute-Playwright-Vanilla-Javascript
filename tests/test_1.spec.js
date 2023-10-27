@@ -2,7 +2,7 @@ const { test } = require('../lambdatest-setup')
 const { expect } = require('@playwright/test')
 
 test.describe('Browse LambdaTest in different search engines 1', () => {
-  test('Test_1', async ({ page }) => {
+  test('Testcase_1', async ({ page }) => {
     await page.goto('https://www.lambdatest.com/selenium-playground')
 await page.click("//a[text()='Simple Form Demo']")
 const urllink=page.url()

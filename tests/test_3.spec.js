@@ -2,7 +2,7 @@ const { test } = require('../lambdatest-setup')
 const { expect } = require('@playwright/test')
 
 test.describe('Browse LambdaTest in different search engines 3', () => {
-  test('Test_3', async ({ page }) => {
+  test('Testcase_3', async ({ page }) => {
     await page.setViewportSize({ width: 1920, height: 1080 });
     await page.goto("https://www.lambdatest.com/selenium-playground/input-form-demo")
 const msg='Please fill in the fields.'

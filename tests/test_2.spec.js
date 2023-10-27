@@ -2,7 +2,7 @@ const { test } = require('../lambdatest-setup')
 const { expect } = require('@playwright/test')
 
 test.describe('Browse LambdaTest in different search engines 2', () => {
-  test('Test_2', async ({ page }) => {
+  test('TestCase_2', async ({ page }) => {
     await page.goto("https://www.lambdatest.com/selenium-playground/")
     await page.click("//a[text()='Drag & Drop Sliders']")
     const slider=await page.locator("//input[@type='range' and @value='15']")
